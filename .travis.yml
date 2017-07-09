@@ -9,7 +9,7 @@ jobs:
         provider: s3
         access_key_id: $AWS_ACCESS_KEY_ID
         secret_access_key: $AWS_SECRET_ACCESS_KEY
-        bucket: tech-radar.labsincubator.com
+        bucket: radar.labsincubator.com
         acl: public_read
         skip_cleanup: true
         local_dir: dist

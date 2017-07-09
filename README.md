@@ -4,7 +4,7 @@ A library that generates an interactive radar, inspired by [thoughtworks.com/rad
 
 ## Demo
 
-You can see this in action at https://radar.thoughtworks.com. If you plug in [this data](https://docs.google.com/spreadsheets/d/1YXkrgV7Y6zShiPeyw4Y5_19QOfu5I6CyH5sGnbkEyiI/) you'll see [this visualization](https://radar.thoughtworks.com/?sheetId=1YXkrgV7Y6zShiPeyw4Y5_19QOfu5I6CyH5sGnbkEyiI). 
+You can see this in action at https://radar.labsincubator.com. If you plug in [this data](https://docs.google.com/spreadsheets/d/1nodW2q6Is-A-Cw7h7d3drneVHuRMP-zhPYEU0o1_Qqg/edit#gid=0) you'll see [this visualization](http://radar.labsincubator.com/?sheetId=https%3A%2F%2Fdocs.google.com%2Fspreadsheets%2Fd%2F1nodW2q6Is-A-Cw7h7d3drneVHuRMP-zhPYEU0o1_Qqg%2Fedit%23gid%3D0). 
 
 ## How To Use
 

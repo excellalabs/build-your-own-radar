@@ -452,6 +452,7 @@ const Radar = function (size, radar) {
       .append('div')
       .attr('class', 'footer-content')
       .append('p')
+      .attr('style', 'text-align:center')
       .html('Powered by <a href="https://www.thoughtworks.com"> ThoughtWorks</a>. ');
   }
 

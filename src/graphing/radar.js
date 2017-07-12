@@ -413,7 +413,11 @@ const Radar = function (size, radar) {
     header.select('.radar-title')
       .append('div')
       .attr('class', 'radar-title__logo')
-      .html('<a href="https://www.thoughtworks.com"> <img src="/images/Excella_Logo_Color.png" /> </a>');
+      .html('<a href="https://www.excella.com"> <img src="/images/Excella_Logo_Color.png" /> </a>');
+
+    header.append('div')
+      .attr('class', 'radar-intro')
+      .html('<p>The theme of this radar was that .NET Core is looking more like the clear future for Microsoft for general development, and the 2.0 release may be considered the real version 1.0. </p>');
 
     return header;
   }
@@ -452,10 +456,7 @@ const Radar = function (size, radar) {
       .append('div')
       .attr('class', 'footer-content')
       .append('p')
-      .html('Powered by <a href="https://www.thoughtworks.com"> ThoughtWorks</a>. '
-      + 'By using this service you agree to <a href="https://info.thoughtworks.com/visualize-your-tech-strategy-terms-of-service.html">ThoughtWorks\' terms of use</a>. '
-      + 'You also agree to our <a href="https://www.thoughtworks.com/privacy-policy">privacy policy</a>, which describes how we will gather, use and protect any personal data contained in your public Google Sheet. '
-      + 'This software is <a href="https://github.com/thoughtworks/build-your-own-radar">open source</a> and available for download and self-hosting.');
+      .html('Powered by <a href="https://www.thoughtworks.com"> ThoughtWorks</a>. ');
   }
 
   function mouseoverQuadrant(order) {

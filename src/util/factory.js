@@ -30,7 +30,7 @@ const GoogleSheet = function (sheetReference, sheetName) {
                 displayErrorMessage(notFound);
                 return;
             }
-
+            
             Tabletop.init({
                 key: sheet.id,
                 callback: createRadar
@@ -66,7 +66,7 @@ const GoogleSheet = function (sheetReference, sheetName) {
 
                 if (!sheetName) {
                     sheetName = tabletop.foundSheetNames[0];
-                }
+                }                
                 var columnNames = tabletop.sheets(sheetName).columnNames;
 
                 var contentValidator = new ContentValidator(columnNames);
@@ -124,10 +124,9 @@ const GoogleSheet = function (sheetReference, sheetName) {
 
         plotLogo(content);
 
-        var bannerText = '<h1>Building your radar...</h1><p>Your Technology Radar will be available in just a few seconds</p>';
+        var bannerText = '<h1>Loading your radar...</h1><p>Your Technology Radar will be available in just a few seconds</p>';
         plotBanner(content, bannerText);
         plotFooter(content);
-
 
         return self;
     };
@@ -185,7 +184,7 @@ const GoogleSheetInput = function () {
 };
 
 function set_document_title() {
-    document.title = "Build your own Radar";
+    document.title = "Generate Radar";
 }
 
 function plotLogo(content) {
@@ -201,12 +200,7 @@ function plotFooter(content) {
         .append('div')
         .attr('class', 'footer-content')
         .append('p')
-        .html('Powered by <a href="https://www.thoughtworks.com"> ThoughtWorks</a>. '
-        + 'By using this service you agree to <a href="https://info.thoughtworks.com/visualize-your-tech-strategy-terms-of-service.html">ThoughtWorks\' terms of use</a>. '
-        + 'You also agree to our <a href="https://www.thoughtworks.com/privacy-policy">privacy policy</a>, which describes how we will gather, use and protect any personal data contained in your public Google Sheet. '
-        + 'This software is <a href="https://github.com/thoughtworks/build-your-own-radar">open source</a> and available for download and self-hosting.');
-
-
+        .html('Powered by <a href="https://www.thoughtworks.com"> ThoughtWorks</a>. ');
 
 }
 

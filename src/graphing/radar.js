@@ -415,10 +415,6 @@ const Radar = function (size, radar) {
       .attr('class', 'radar-title__logo')
       .html('<a href="https://www.excella.com"> <img src="/images/Excella_Logo_Color.png" /> </a>');
 
-    header.append('div')
-      .attr('class', 'radar-intro')
-      .html('<p>The theme of this radar was that .NET Core is looking more like the clear future for Microsoft for general development, and the 2.0 release may be considered the real version 1.0. </p>');
-
     return header;
   }
 

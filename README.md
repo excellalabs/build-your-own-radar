@@ -4,7 +4,7 @@ A library that generates an interactive radar, inspired by [thoughtworks.com/rad
 
 ## Demo
 
-You can see this in action at https://radar.labsincubator.com. If you plug in [this data](https://docs.google.com/spreadsheets/d/1nodW2q6Is-A-Cw7h7d3drneVHuRMP-zhPYEU0o1_Qqg/edit#gid=0) you'll see [this visualization](http://radar.labsincubator.com/?sheetId=https%3A%2F%2Fdocs.google.com%2Fspreadsheets%2Fd%2F1nodW2q6Is-A-Cw7h7d3drneVHuRMP-zhPYEU0o1_Qqg%2Fedit%23gid%3D0). 
+You can see this in action at [https://radar.labsincubator.com](https://radar.labsincubator.com). If you plug in [this data](https://docs.google.com/spreadsheets/d/1nodW2q6Is-A-Cw7h7d3drneVHuRMP-zhPYEU0o1_Qqg/edit#gid=0) you'll see [this visualization](http://radar.labsincubator.com/?sheetId=https%3A%2F%2Fdocs.google.com%2Fspreadsheets%2Fd%2F1nodW2q6Is-A-Cw7h7d3drneVHuRMP-zhPYEU0o1_Qqg%2Fedit%23gid%3D0). 
 
 ## How To Use
 
@@ -33,7 +33,7 @@ The URL will be similar to [https://docs.google.com/spreadsheets/d/1waDG0_W3-yNi
 
 ### Building the radar
 
-Paste the URL in the input field on the home page.
+Paste the URL in the input field on the [radar homepage](https://radar.labsincubator.com).
 
 That's it!
 
@@ -49,15 +49,7 @@ The application uses [webpack](https://webpack.github.io/) to package dependenci
 
 ## Contribute
 
-All tasks are defined in `package.json`.
-
-Pull requests are welcome; please write tests whenever possible. 
-Make sure you have nodejs installed.
-
-- `git clone git@github.com:thoughtworks/build-your-own-radar.git`
-- `npm install`
-- `npm test` - to run your tests
-- `npm run dev` - to run application in localhost:8080. This will watch the .js and .css files and rebuild on file changes
+If you are interested, please contribute to ThoughtWorks' [original repository](https://github.com/thoughtworks/build-your-own-radar).
 
 ### Don't want to install node? Run with one line docker
 
